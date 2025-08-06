@@ -17,13 +17,14 @@
 }
 
 :root {
+  --slate300 : #d5e1ef;
   --slate500 : hsl(216, 15%, 48%);
   --slate900 : hsl(218, 44%, 22%);
 }
 
 html,
 body {
-  background-color: #d5e1ef;
+  background-color: var(--slate300);
   height: 100vh;
 }
 
@@ -60,14 +61,15 @@ img {
 
 article {
   text-align: center;
-  font-size: 15px;
 }
 
-article h2 {
+article h1 {
   color: var(--slate900);
   font-weight: 700;
+  font-size: 1.4rem;
 }
 
 article small {
   color: var(--slate500);
+  font-size: 0.9rem;
 }
